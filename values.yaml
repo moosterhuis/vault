@@ -2,7 +2,7 @@ global:
    enabled: true
    tlsDisable: false
 injector:
-   enabled: true
+   enabled: false
 server:
    extraEnvironmentVars:
       VAULT_CACERT: /vault/userconfig/vault-ha-tls/vault.ca
